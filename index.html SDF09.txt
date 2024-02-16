@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <footer class="bg-[#659f8f] dark:bg-[#313131]"> <!-- if in darkmode -->
+        <div class="container">
+            <footer class="bg-[#659f8f] dark:bg-[#313131]">
+                <div class="container px-6 py-12 mx-auto">
+                    <div class="grid">
+                        <div class="sm:col-span-2">
+                            <h1 class="max-w-lg" > <strong>Subscribe to our news letter for updates.</strong></h1>
+                            <div class="mt-4 flex">  <!--index and place holder -->
+                                <input type="text" class="p-2 border border-grey-light round text-grey-dark text-sm h-auto" placeholder="Your email address"> <!-- text will be inside placeholder -->
+                                <button class="bg-orange-500 #d86943 justify-center text-center text-white rounded-sm h-auto text-xs p-3 mx-4" flex items-center>Subscribe</button>
+                            </div>
+                        </div>
+                        <div>
+                        
+
+                            <!-- Quick links list of links -->
+                        <!--  <div class="w-full lg:w-6/12 px-4"> --> <div class="grid md:grid-cols-2 lg:grid-cols-4">
+                                <div class="flex flex-wrap items-top mb-6">
+                                  <div class="w-full lg:w-4/12 px-4 ml-auto"> 
+                                    <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-3">Quick Link</span>
+                                    <ul class="list-styled">
+                                      <li>
+                                        <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">Home</a>
+                                      </li>
+                                      <li>
+                                        <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">Who We Are</a>
+                                      </li>
+                                      <li>
+                                        <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">Our Philosophy</a>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                           <!-- Technologies list of links -->
+                        <div class="w-full lg:w-4/12 px-4">
+                        <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-3">Technologies</span>
+                        <ul class="list-styled">
+                            <li>
+                            <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">HTML</a>
+                          </li>
+                          <li>
+                            <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">CSS</a>
+                          <li>
+                            <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm text-[#313131]" href="#">JavaScript</a>
+                          </li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                    
+                    <hr class="my-6 border-[#d86943]">
+                    
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="">
+                        </a>
+                    </div>
+    </footer>
+
+</body>
+</html>
